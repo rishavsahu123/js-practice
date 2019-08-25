@@ -30,6 +30,12 @@ for (var i = 0; i < arr.length; i++) {
 
 //solution of above problem
 // 3)
+/**
+This often confuse people who are new to JavaScript or functional programming. 
+It is a result of misunderstanding what closures are. 
+A closure does not merely pass the value of a variable or even a reference to the variable.
+A closure captures the variable itself!
+*/
 for (let i = 0; i < arr.length; i++) {
   var temp1 = function a() {
     console.log('Index: ' + i + ', element: ' + arr[i]);
