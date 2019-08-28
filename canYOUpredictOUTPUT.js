@@ -34,11 +34,13 @@ setTimeout(()=>{
 },2.000004);
 
 console.log(3)
+console.log(2+[2])
 
 // output =>
 // 1
 // 2
 // 3
+// "22"
 // 'should run after 1.99 millisecond?'
 // 'should run after 1 millisecond?'
 // 'should run after 0 millisecond?'
