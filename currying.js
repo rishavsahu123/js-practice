@@ -26,6 +26,7 @@ console.log(temp)
 */
 
 // ohooo, and the perfect function is given below, enjoy:
+// took reference from : https://stackoverflow.com/questions/47489109/about-javascript-function-valueof-tostring-and-curry-function-behaved-differen
 var funcCurrying = (...restParam) => {
   var recurFunc = (...restOtherParam) => {
     restParam.push(...restOtherParam)
