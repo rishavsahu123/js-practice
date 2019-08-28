@@ -24,3 +24,22 @@ var sum = (a) => {
 sum(1)(2)(3)(2)
 console.log(temp)
 */
+
+// ohooo, and the perfect function is given below, enjoy:
+var funcCurrying = (...restParam) => {
+  var recurFunc = (...restOtherParam) => {
+    restParam.push(...restOtherParam)
+    /* can also use concat in place of push, but concat doesn'e modify existing array, it returns.
+    restParam = restParam.concat(restOtherParam)
+    */
+    return recurFunc
+  }
+  recurFunc.toString = () => {
+    return restParam.reduce((a,b)=>a+b,0)
+  }
+  return recurFunc
+}
+
+console.log(funcCurrying(1)(2,2)(1,1,1,)(0)()(1,2)(2))
+// output:
+// 13
