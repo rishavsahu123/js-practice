@@ -1,6 +1,13 @@
 ### Some great stuff Links. =>
-https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e
-<div style="white-space: nowrap">LRU: https://medium.com/dsinjs/implementing-lru-cache-in-javascript-94ba6755cda9</div>
+https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e<br>
+#### LRU:<br>
+https://medium.com/dsinjs/implementing-lru-cache-in-javascript-94ba6755cda9
+
+#### DAN BLOG:<br>
+https://overreacted.io/<br>
+https://medium.com/@dan_abramov
+
+
 
 
 <h3>class</h3>
