@@ -1,3 +1,7 @@
+#### Some great stuff Links. =>
+https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e
+
+
 <h3>class</h3>
 <p>A class is a type of function, but instead of using the keyword
 <code >function</code> to initiate it, we use the keyword
