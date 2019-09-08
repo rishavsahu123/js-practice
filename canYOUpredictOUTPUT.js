@@ -49,3 +49,20 @@ console.log(2+[2])
 // 'should run after 2.9999999 millisecond?'
 // 'should run after 2.000004 millisecond?'
 // 'should run after 3 millisecond?'
+
+
+const ramAge = 27;
+const rishavAge = 25;
+const obj = {
+  ramAge,
+  rishavAge,
+  bhiyao(param) {
+    this.ramAge = param
+    return this
+  }
+}
+console.log(obj.bhiyao(22).ramAge)
+
+
+// output:
+// 22
