@@ -2,6 +2,7 @@
 https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e<br>
 https://medium.com/maxime-heckel/asynchronous-rendering-with-react-c323cda68f41<br>
 https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html<br>
+https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1<br>
 
 #### LRU:<br>
 https://medium.com/dsinjs/implementing-lru-cache-in-javascript-94ba6755cda9<br>
