@@ -68,3 +68,16 @@ console.log(obj.bhiyao(22).ramAge)
 const arrToObj = ([key, value]) => ({ [key]: value });
 console.log( arrToObj([ 'foo', 'bar' ]) );
 // output: { "foo": "bar" }
+
+
+// NOTE: it will throw error, if won't pass  '={}' in param or {} in argument.
+// 'error: Uncaught TypeError: Cannot read property 'userName' of undefined'.
+const createUser = ({
+  userName = 'Anonymous',
+  avatar = 'anon.png'
+}={}) => ({
+  userName,
+  avatar
+});
+console.log(createUser());
+// { userName: "Anonymous", avatar: 'anon.png' }
