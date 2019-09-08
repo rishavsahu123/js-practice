@@ -50,7 +50,6 @@ console.log(2+[2])
 // 'should run after 2.000004 millisecond?'
 // 'should run after 3 millisecond?'
 
-
 const ramAge = 27;
 const rishavAge = 25;
 const obj = {
@@ -63,6 +62,9 @@ const obj = {
 }
 console.log(obj.bhiyao(22).ramAge)
 
-
 // output:
 // 22
+
+const arrToObj = ([key, value]) => ({ [key]: value });
+console.log( arrToObj([ 'foo', 'bar' ]) );
+// output: { "foo": "bar" }
