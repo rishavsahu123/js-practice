@@ -81,16 +81,12 @@ let dualFilterList = criticalList.sort((a, b) =>
 dualFilterList = dualFilterList.concat(...nonCriticalList) // concat way
 console.log(dualFilterList)
 
-/** We can apply comparator. Best One*/
+/** We can apply comparator. Perfect One*/
 let sortedList = list.sort((a, b) => {
-    if (a.critical && b.critical) {
-        return (a.label.toLowerCase() > b.label.toLowerCase())
-            ? 1 : (a.label.toLowerCase() < b.label.toLowerCase()) ? -1 : 0;
-    }
-    else if (a.critical) {
+    if (a.critical && !b.critical) {
         return -1;
     }
-    else if (b.critical) {
+    else if (!a.critical && b.critical) {
         return 1;
     }
     else {
