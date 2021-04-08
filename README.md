@@ -6,7 +6,7 @@ https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html<br>
 https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1<br>
 https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99<br>
 https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa<br>
-
+https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/<br>
 #### LRU:<br>
 https://medium.com/dsinjs/implementing-lru-cache-in-javascript-94ba6755cda9<br>
 
